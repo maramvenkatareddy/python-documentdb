@@ -23,9 +23,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8080
 # CRUD operations on Db
 Post:
 ====
-curl -X POST http://localhost:8080/items \
-  -H "Content-Type: application/json" \
-  -d '{"CloudTechnology": "AWS", "description": "Amazon Web Services", "MarketValue": 40}'
+curl -X POST http://localhost:8080/items -H "Content-Type: application/json" -d '{"CloudTechnology": "AWS", "description": "Amazon Web Services", "MarketValue": 40}'
   
 GET:
 ====
