@@ -1,6 +1,7 @@
 # Application is running on EC2 and Amazon DocumentDB is hosted as a managed service in aws
 # To check the network connection between ec2 and db using telnet command whcih i mentioned below,
-telnet <documentdbendpoint> <portnumber>
+
+# telnet <documentdbendpoint> <portnumber>
 
 Pre-requisites:
 ==============
