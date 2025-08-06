@@ -27,7 +27,7 @@ curl -X POST http://localhost:8080/items -H "Content-Type: application/json" -d 
   
 GET:
 ====
-curl -X GET http://localhost:8080/items
+curl -X GET http://localhost:8080/items/
 
 PUT:
 ====
